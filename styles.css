@@ -8,8 +8,20 @@
 
 }
 
+th {
+  background-color:rgb(3, 129, 188);
+  color: white;
+  border: none;
+  border-radius: 2pt;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 200;
+  width: 150px;
+  height: 40px;
+  
+}
+
 body {
-  background-color: rgb(203, 203, 203);
   font-size: 17pt;
 }
 
@@ -21,6 +33,10 @@ h3 {
   color:rgb(3, 129, 188);
   font-size: 25pt;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h3_exp_useless {
+  display: none;
 }
 
 .img_about_me {
@@ -49,7 +65,7 @@ a {
   text-decoration: none;
 }
 a:link, a:visited {
-  color:rgb(3, 129, 188);
+  color:white;
 }
 a:hover, a:active {
   color: #FF9933;
