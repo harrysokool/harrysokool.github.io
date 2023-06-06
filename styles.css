@@ -7,20 +7,6 @@ body {
     padding-right: 10pt;
     padding-top: 5pt;
   }
-  h1 {
-    font: 14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    line-height: 20pt;
-  }
-  p.subheader {
-    font-weight: bold;
-    color: #593d87;
-  }
-  img {
-    padding: 10pt;
-    float: right;
-    display: inline;
-  }
 
   .img_about_me
   {
@@ -29,17 +15,17 @@ body {
     height: 20%;
   }
 
-  .pos_about_me
-  {
-    position: absolute;
-  }
-
   .p_about_me
   {
     padding-right: 300pt;
     padding-left: 250pt;
   }
 
+  .sec_projects
+  {
+    float:inline-start;
+  }
+  
   a{
   text-decoration: none;
   }
@@ -48,11 +34,4 @@ body {
   }
   a:hover, a:active {
     color: #FF9933;
-  }
-  footer {
-    font-size: 9pt;
-    font-style: italic;
-    line-height: 12pt;
-    text-align: center;
-    padding-top: 30pt;
   }
