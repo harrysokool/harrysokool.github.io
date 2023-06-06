@@ -13,6 +13,7 @@ body {
     float: left;
     width: 20%;
     height: 20%;
+    display: block;
   }
 
   .p_about_me
