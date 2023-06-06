@@ -4,44 +4,37 @@
   font-style:normal;
   font-family:monospace;
   font-variant: small-caps;
-  color:rgb(5, 102, 199);
+  color:rgb(3, 129, 188);
+
 }
 
 body {
-    font-size: 15pt;
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    color: black;
-    line-height: 20pt;
-    padding-left: 10pt;
-    padding-right: 10pt;
-    padding-top: 5pt;
-  }
+  background-color: rgb(203, 203, 203);
+  font-size: 17pt;
+}
 
-  .img_about_me
-  {
-    float: left;
-    width: 20%;
-    height: 20%;
-    display: block;
-  }
+.img_about_me {
+  float: left;
+  width: 20%;
+  height: 20%;
+  display: block;
+}
 
-  .p_about_me
-  {
-    padding-right: 300pt;
-    padding-left: 250pt;
-  }
+.p_about_me {
+  padding-right: 300pt;
+  padding-left: 250pt;
+}
 
-  .sec_projects
-  {
-    float:inline-start;
-  }
-  
-  a{
-  text-decoration: none;
-  }
-  a:link, a:visited {
-    color: #5072e4;
-  }
-  a:hover, a:active {
-    color: #FF9933;
-  }
+.sec_projects {
+  float:inline-start;
+}
+
+a {
+text-decoration: none;
+}
+a:link, a:visited {
+  color: #5072e4;
+}
+a:hover, a:active {
+  color: #FF9933;
+}

@@ -18,15 +18,15 @@
     <body>
       <header>
         <!-- Title -->
-        <h1 class="h1_title">Harry's Webpage  <hr></h1>
+        <h1 class="h1_title">Harry's Webpage  <hr class="title_line"></h1>
 
         <!-- Navigation -->
         <nav>
           <table>
-            <th><a href="#">About Me</a></th>
-            <th width="170"><a href="#">Projects</a></th>
-            <th width="170"><a href="#">Experiences</a></th>
-            <th width="170"><a href="#">Hobbies</a></th>
+            <th><a href="#about_me">About Me</a></th>
+            <th width="170"><a href="#projects">Projects</a></th>
+            <th width="170"><a href="#experience">Experiences</a></th>
+            <th width="170"><a href="#hobbies">Hobbies</a></th>
             <th width="170"><a href="#">Other Info</a></th>
             <th width="170"><a href="#">Contact Me</a></th>
           </table>
@@ -39,7 +39,7 @@
           <!-- This section is about me -->
           <section class="sec_about_me">
             <div class="pos_about_me">
-              <h3><u>About Me</u></h3>
+              <h3 id="about_me"><u>About Me</u></h3>
               <img class="img_about_me" src="images/ben-dover.jpg" height="150" width="150" alt="Ben Dover">
               <p class="p_about_me">            
               This is my first <a href="https://www.google.com.hk"target="_blank">website.</a> <b> YAY!!!</b> This is my first time buidling a website, im trying to get a job. This part will be more about me. Next to this will be a photo of me.
@@ -48,12 +48,12 @@
           </section>
 
 
-          <br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br>
 
 
           <!-- This section is projects-->
           <section class="sec_projects">
-            <h3><u>Projects</u></h3>
+            <h3 id="projects"><u>Projects</u></h3>
             <ol>
               <!-- Project 1 -->
               <div>
@@ -75,7 +75,7 @@
               <div>
                 <li>Sleepy Ninja (A Dodging Obstacle Game)</li>
                 <br>
-                <img src="images/SN_home_screen.png" height="300" alt="Sleepy Ninja Home Screen">
+                <img src="images/SN_home_screen.png" height="400" alt="Sleepy Ninja Home Screen">
                 <ul>
                   <li>
                     Participated in nwHacks and worked in a team of four while using JavaScript, and GitHub
@@ -94,7 +94,7 @@
               <div>
                 <li>Password Generator</li>
                 <br>
-                <img src="images/password.png" height="300" alt="password image">
+                <img src="images/password.png" height="200" alt="password image">
                 <ul>
                   <li>
                     Implemented a console-based password generator using Java and tested it with JUnit
@@ -112,12 +112,12 @@
           <!-- Experiences -->
           <section class="sec_exp">
             <h3><u>Experiences</u></h3>
-            <h4>Work Experiences</h4>
+            <h4 id="experience"> Work Experiences</h4>
             <ol>
               <div>
                 <li>Circle K Convenience Store All-Rounder</li>
                 <br>
-                <img src="images/circle_k.png" alt="circle K image" height="300">
+                <img src="images/circle_k.png" alt="circle K image" height="200">
                 <ul>
                   <li>Stocked the cooler, cleaned the shop, and helped to collect cash at the cashier desk</li>
                   <li>Aug 2018 – Feb 2021</li>
@@ -128,7 +128,7 @@
 
               <div>
                 <li>Concerto Academy Basketball Coach</li>
-                <img src="images/bball.jpeg" alt="A Basketball" height="300">
+                <img src="images/bball.jpeg" alt="A Basketball" height="200">
                 <ul>
                   <li>Coached tweens and improved their shooting, dribbling skills and the value of teamwork</li>
                   <li>Sep 2019 – Feb 2021</li>
@@ -180,9 +180,8 @@
           </section>
 
           <!-- This section is about hobbies -->
-          <section>
-          <h3><u>Hobbies</u></h3>
-
+          <section title="sec_hobbies">
+            <h3 id="hobbies"><u>Hobbies</u></h3>
           </section>
 
         </article>
