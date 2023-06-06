@@ -1,6 +1,6 @@
 .h1_title {
   text-align: center;
-  font-size: 40pt;
+  font-size: 50pt;
   font-style:normal;
   font-family:monospace;
   font-variant: small-caps;
@@ -13,6 +13,16 @@ body {
   font-size: 17pt;
 }
 
+.nav_table {
+  font-size: 20pt;
+}
+
+h3 {
+  color:rgb(3, 129, 188);
+  font-size: 25pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .img_about_me {
   float: left;
   width: 20%;
@@ -23,17 +33,23 @@ body {
 .p_about_me {
   padding-right: 300pt;
   padding-left: 250pt;
+  font-size: 20pt;
 }
 
 .sec_projects {
   float:inline-start;
 }
 
+ul {
+  margin: 10pt;
+  padding-right: 400pt;
+}
+
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 a:link, a:visited {
-  color: #5072e4;
+  color:rgb(3, 129, 188);
 }
 a:hover, a:active {
   color: #FF9933;
