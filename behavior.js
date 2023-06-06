@@ -1,2 +1,2 @@
 console.log("hi bitch");
-document.write(document.lastModified);
+document.write("Last Modified: " + document.lastModified);
