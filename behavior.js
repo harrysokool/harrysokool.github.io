@@ -1,2 +1,2 @@
-console.log("hi bitch");
+console.log("hi");
 document.write("Last Modified: " + document.lastModified);
