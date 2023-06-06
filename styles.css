@@ -21,6 +21,19 @@ body {
     float: right;
     display: inline;
   }
+
+  .img_about_me
+  {
+    float: left;
+    width: 30%;
+    height: 30%;
+  }
+
+  .pos_about_me
+  {
+    position: absolute;
+  }
+
   a{
   text-decoration: none;
   }
