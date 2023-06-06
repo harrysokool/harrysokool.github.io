@@ -1,10 +1,10 @@
 body {
-    font-size: 10pt;
+    font-size: 15pt;
     font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
     color: black;
-    line-height: 14pt;
-    padding-left: 5pt;
-    padding-right: 5pt;
+    line-height: 20pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
     padding-top: 5pt;
   }
   h1 {
@@ -25,13 +25,19 @@ body {
   .img_about_me
   {
     float: left;
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
   }
 
   .pos_about_me
   {
     position: absolute;
+  }
+
+  .p_about_me
+  {
+    padding-right: 300pt;
+    padding-left: 250pt;
   }
 
   a{
