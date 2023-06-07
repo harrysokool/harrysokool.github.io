@@ -1,6 +1,3 @@
-console.log("hi");
-document.write("Last Modified: " + document.lastModified);
-
 const displayTime = document.getElementById("h4_showTime");
 // Time
 function showTime() {

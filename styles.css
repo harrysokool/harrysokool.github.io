@@ -5,8 +5,6 @@ body {
   color: white;
   background-color: black;
   font-size: 17pt;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,112,1) 97%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 hr {
@@ -114,8 +112,7 @@ hr {
   top: 10px;
   border: none;
   height: 10px;
-  background: #eab600;
-
+  background: white;
 }
 
 nav {
@@ -172,7 +169,7 @@ a:hover, a:active {
 }
 
 .button_back {
-  background-color: rgb(2,0,36);
+  background-color: black;
   width: 60pt;
   height: 40pt;
   border-color: white;
@@ -186,14 +183,12 @@ a:hover, a:active {
   left: 10pt;
   font-weight: bold;
   margin-top: 40pt;
+  transition: opacity 1s;
 }
 
 .button_back:hover {
-  background-color: rgb(2,0,36);
-  border-color: rgb(2,0,36);
-  background: rgb(2,0,36);
-}
-
-.button_back:hover > a {
-  color:#eab600;
+  background-color: black;
+  border-color: white;
+  background: black;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.15);
 }
