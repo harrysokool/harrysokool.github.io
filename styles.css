@@ -57,11 +57,12 @@ hr {
   font-size: 50pt;
   font-style:normal;
   font-family:monospace;
+  line-height: 40%;
 }
 
 .h2_title {
   text-align: center;
-  line-height: 0%;
+  line-height: 10%;
 }
 
 .hr_header {
@@ -111,17 +112,14 @@ h3 {
   float:inline-start;
 }
 
-ul {
-  margin: 10pt;
-  padding-right: 400pt;
-}
-
 a {
   text-decoration: none;
 }
 a:link, a:visited {
   color: white;
+  opacity: 80%;
 }
 a:hover, a:active {
-  color: #FF9933;
+  color: white;
+  opacity: 100%;
 }
