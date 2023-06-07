@@ -61,6 +61,36 @@ hr {
   top: 150pt;
 }
 
+.h4_showTime {
+  position: absolute;
+  left: 855pt;
+  top: 40pt;
+}
+
+.h4_showDay {
+  position: absolute;
+  left: 855pt;
+  top: 18pt;
+}
+
+.h4_showDaynum {
+  position: absolute;
+  left: 950pt;
+  top: 18pt;
+}
+
+.h4_showMonth {
+  position: absolute;
+  left: 970pt;
+  top: 18pt;
+}
+
+.h4_showYear {
+  position: absolute;
+  left: 1015pt;
+  top: 18pt;
+}
+
 .h1_title {
   text-align: center;
   font-size: 50pt;
