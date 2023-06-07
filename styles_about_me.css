@@ -12,45 +12,6 @@ hr {
   background: white;
 }
 
-.block {
-  position: relative;
-  margin: 10% auto 0;
-  width: 50%;
-  height: 400px;
-  background: linear-gradient(0deg, black, rgb(44, 43, 43));
-  top: -60pt;
-}
-
-.glow::before, .glow::after {
-  content: '';
-  position: absolute;
-  left: -2px;
-  top: -2px;
-  background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, 
-  #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-  background-size: 400%;
-  width: calc(100% + 5px);
-  height: calc(100% + 5px);
-  z-index: -1;
-  animation: animate 20s linear infinite;
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.glow::after {
-  filter: blur(40px);
-}
-
 .h1_title {
   text-align: center;
   font-size: 50pt;
@@ -82,6 +43,21 @@ nav {
   padding-inline: 60pt;
 }
 
+.button_back {
+  background-color: black;
+  width: 60pt;
+  height: 40pt;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+  left: -200pt;
+  top: 100pt;
+}
+
 h3 {
   text-align: center;
   font-size: 25pt;
@@ -105,10 +81,6 @@ h3 {
   position: relative;
   width: 70%;
   left:15%;
-}
-
-.sec_projects {
-  float:inline-start;
 }
 
 a {
