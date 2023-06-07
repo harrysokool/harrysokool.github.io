@@ -54,9 +54,14 @@ hr {
 .h1_title {
   text-align: center;
   font-size: 50pt;
-  font-style:normal;
-  font-family:monospace;
+  font-style: normal;
+  font-family: monospace;
   line-height: 40%;
+  opacity: 100%;
+}
+
+.a_header:link {
+  opacity: 100%;
 }
 
 .h2_title {
@@ -116,9 +121,51 @@ a {
 }
 a:link, a:visited {
   color: white;
-  opacity: 80%;
+  opacity: 70%;
 }
 a:hover, a:active {
   color: white;
   opacity: 100%;
+}
+
+.button_back1 {
+  background-color: black;
+  width: 60pt;
+  height: 40pt;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+  left: -200pt;
+  top: 100pt;
+}
+
+.button_back2 {
+  background-color: black;
+  width: 60pt;
+  height: 40pt;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.button_back3 {
+  background-color: black;
+  width: 60pt;
+  height: 40pt;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+  top: -10pt;
+  left: 10pt;
 }
