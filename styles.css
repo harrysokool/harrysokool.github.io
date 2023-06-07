@@ -13,12 +13,12 @@ hr {
 }
 
 .block {
-
   position: relative;
   margin: 10% auto 0;
   width: 50%;
   height: 400px;
   background: linear-gradient(0deg, black, rgb(44, 43, 43));
+  top: -40pt;
 }
 
 .glow::before, .glow::after {
@@ -26,8 +26,8 @@ hr {
   position: absolute;
   left: -2px;
   top: -2px;
-  background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, 
-  #6e0dd0, #ff3300, #099fff);
+  background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, 
+  #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
   background-size: 400%;
   width: calc(100% + 5px);
   height: calc(100% + 5px);
@@ -94,7 +94,7 @@ h3 {
   height: 25%;
   display: block;
   margin: -10px 25px;
-
+  border-radius: 10px;
 }
 
 .p_about_me {
