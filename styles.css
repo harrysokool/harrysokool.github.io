@@ -1,4 +1,6 @@
 body {
+  width: 3024px;
+  height: 1964px;
   margin: 0;
   padding:0;
   color: white;
@@ -141,7 +143,7 @@ a:hover, a:active {
 }
 
 .button_back {
-  background-color: black;
+  background-color: rgb(2,0,36);
   width: 60pt;
   height: 40pt;
   border-color: white;
@@ -159,7 +161,7 @@ a:hover, a:active {
 
 .button_back:hover {
   background-color: rgb(2,0,36);
-  border-color: black;
+  border-color: rgb(2,0,36);
   background: rgb(2,0,36);
 }
 
