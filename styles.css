@@ -1,11 +1,14 @@
+
+
 body {
   width: 1500px;
   margin: 0;
   padding:0;
   color: white;
-  background-color: black;
+  /* background-color: black; */
   font-size: 17pt;
-}
+  background: rgb(8,7,8);
+  background: linear-gradient(90deg, rgba(8,7,8,0.68531162464986) 24%, rgba(0,1,28,0.6376925770308124) 53%);}
 
 hr {
   position: relative;
@@ -73,20 +76,20 @@ hr {
 
 .h4_showDaynum {
   position: absolute;
-  left: 950pt;
+  left: 940pt;
   top: 18pt;
 }
 
 .h4_showMonth {
   position: absolute;
-  left: 970pt;
-  top: 18pt;
+  left: 940pt;
+  top: 35pt;
 }
 
 .h4_showYear {
   position: absolute;
-  left: 1015pt;
-  top: 18pt;
+  left: 940pt;
+  top: 55pt;
 }
 
 .h1_title {
@@ -191,4 +194,8 @@ a:hover, a:active {
   border-color: white;
   background: black;
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.15);
+}
+
+.info { 
+  margin-left: 20px;
 }
