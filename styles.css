@@ -64,31 +64,31 @@ hr {
 
 .h4_showTime {
   position: absolute;
-  left: 855pt;
+  left: 910pt;
   top: 40pt;
 }
 
 .h4_showDay {
   position: absolute;
-  left: 855pt;
+  left: 910pt;
   top: 18pt;
 }
 
 .h4_showDaynum {
   position: absolute;
-  left: 940pt;
+  left: 1000pt;
   top: 18pt;
 }
 
 .h4_showMonth {
   position: absolute;
-  left: 940pt;
+  left: 1000pt;
   top: 35pt;
 }
 
 .h4_showYear {
   position: absolute;
-  left: 940pt;
+  left: 1000pt;
   top: 55pt;
 }
 
