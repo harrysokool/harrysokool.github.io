@@ -1,5 +1,3 @@
-
-
 const displayTime = document.getElementById("h4_showTime");
 // Time
 function showTime() {
